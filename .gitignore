@@ -1,0 +1,32 @@
+# macOS system files
+.DS_Store
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv/
+
+# Node.js-related files (if applicable)
+node_modules/
+npm-debug.log*
+
+# Chrome extension build artifacts
+*.zip
+*.crx
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Exclude library files (if hosted externally or downloaded)
+extension/lib/vue.min.js
+extension/lib/botui.min.js
+extension/lib/botui.min.css
+extension/lib/botui-theme-default.css
